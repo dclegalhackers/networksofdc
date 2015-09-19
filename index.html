@@ -36,10 +36,10 @@
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#plays_index_anchor" title="View the Plays">SEE THE PLAYS</a>
+        <a href="#plays_index_anchor" title="View the Plays">SEE THE NETWORKS</a>
       </div>
       <div class="button">
-        <a href="https://github.com/dclegalhackers/networksofdc" title="Visit Github to Improve This Content">HELP IMPROVE THIS CONTENT</a>
+        <a href="https://github.com/dclegalhackers/networksofdc" title="Visit GitHub to Improve This Content">HELP IMPROVE THIS CONTENT</a>
       </div>
     </div>
   </div>
@@ -55,9 +55,6 @@
           <li><a href="#play{{ play.id }}" title="View Play {{ play.id }}">{{ play.title }}</a></li>
         {% endfor %}
         </ol>
-      </div>
-      <div class="button">
-        <a href="Manhole Covers" title="View the In Detail">IN DETAIL</a>
       </div>
     </div>
   </div>
