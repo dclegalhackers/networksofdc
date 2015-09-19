@@ -3,6 +3,7 @@ markdown: rdiscount
 highlighter: pygments
 
 url: http://dclegalhackers.org/networksofdc
+baseurl: http://dclegalhackers.org/networksofdc
 
 collections:
   - plays
