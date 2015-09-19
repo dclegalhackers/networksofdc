@@ -3,12 +3,9 @@ markdown: rdiscount
 highlighter: pygments
 
 url: http://dclegalhackers.org/networksofdc
-baseurl: http://dclegalhackers.org/networksofdc
-gems:
-  - jekyll-redirect-from
 
 collections:
-  - networks
+  - plays
 
 sass:
     sass_dir: assets/_sass
