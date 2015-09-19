@@ -1,10 +1,14 @@
 permalink: pretty
 markdown: rdiscount
 highlighter: pygments
-url: http://dclegalhackers.org/playbook
+
+url: http://dclegalhackers.org/networksofdc
+baseurl: http://dclegalhackers.org/networksofdc
+gems:
+  - jekyll-redirect-from
 
 collections:
-  - plays
+  - networks
 
 sass:
     sass_dir: assets/_sass
